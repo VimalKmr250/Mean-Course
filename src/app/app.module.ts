@@ -8,6 +8,7 @@ import{ MatButtonModule } from '@angular/material/button';
 import{ MatCardModule } from '@angular/material/card';
 import{ MatToolbarModule } from '@angular/material/toolbar';
 import{ MatInputModule } from '@angular/material/input';
+import{MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +16,7 @@ import { AppComponent } from "./app.component";
 import { PostCreateComponent } from "./posts/post-create/post-create.component";
 import { HeaderComponent } from "./header/header.component";
 import { PostListComponent } from "./posts/post-list/post-list.component";
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import { PostListComponent } from "./posts/post-list/post-list.component";
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    MatProgressSpinnerModule,
     HttpClientModule,
   ],
   providers: [],
