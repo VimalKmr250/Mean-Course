@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { MatExpansionModule } from '@angular/material/expansion';
 import{ MatButtonModule } from '@angular/material/button';
+import{ MatPaginatorModule } from '@angular/material/paginator'
 import{ MatCardModule } from '@angular/material/card';
 import{ MatToolbarModule } from '@angular/material/toolbar';
 import{ MatInputModule } from '@angular/material/input';
@@ -35,6 +36,7 @@ import { from } from 'rxjs';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    MatPaginatorModule,
     MatProgressSpinnerModule,
     HttpClientModule,
   ],
